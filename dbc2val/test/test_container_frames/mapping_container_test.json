@@ -1,0 +1,16 @@
+{
+    "Vehicle": {
+	"type": "branch",
+	"children": {
+	    "test": {
+		"type": "branch",
+		"children": {
+		    "signal3": {
+			"type": "sensor",
+			"datatype": "uint8"
+		    }
+		}
+	    }
+	}
+    }
+}
